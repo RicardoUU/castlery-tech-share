@@ -1,12 +1,14 @@
 {
-  "name": "castlery-tech-share",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "ddd-share",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@slidev/cli": "^0.36.10",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  }
 }
