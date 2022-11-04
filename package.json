@@ -2,7 +2,7 @@
   "name": "ddd-share",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build --base /tech-share",
     "dev": "slidev --open",
     "export": "slidev export"
   },
